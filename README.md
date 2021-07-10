@@ -14,6 +14,9 @@ This is far from complete, so feel free to extend this as you like.
 1. `osint.xml`: the complete library, ready for use in draw.io
 2. `icons_to_xml.sh`: quick and dirty script to regenerate the xml based on the icons in the `svg` folder
 
+# Known issues
+
+- the aspect ratio is off for a few of the icons
 
 # FontAwesome Icons in this library
 
