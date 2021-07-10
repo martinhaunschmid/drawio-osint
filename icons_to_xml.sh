@@ -10,7 +10,7 @@ do
 		echo ',' >> osint.xml
 	fi
 	
-	echo "{\"data\":\"data:image/svg+xml;base64,$(cat ./svgs/$i | base64)\",\"w\":75,\"h\":75,\"aspect\":\"fixed\"}" >> osint.xml
+	echo "{\"data\":\"data:image/svg+xml;base64,$(cat ./svgs/$i | base64)\",\"w\":40,\"h\":40,\"aspect\":\"fixed\"}" >> osint.xml
 	COLON=true
 done
 
